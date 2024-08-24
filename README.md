@@ -1,1 +1,1 @@
-This is a website for the SMA IGS Camping Night event!
+This is a website for the SMA IGS OSIS MAGANG!
