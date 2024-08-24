@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+body, html {
+    
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(74, 77, 67);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #333;
+    z-index: 1000;
+    opacity: 1;
+    animation: fadeOut 1s ease forwards;
+}
+
+@keyframes fadeOut {
+    to {
+        opacity: 0;
+        display: none;
+    }
+}
+
+.content {
+    opacity: 0;
+    animation: contentFadeIn 1s 0.5s ease forwards;
+}
+
+@keyframes contentFadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+div.navbar{
+
+    background-color: rgb(81, 89, 64);
+    height: 64px;
+
+    box-shadow: 5px 10px 6px rgba(0, 0, 0, 0.05);
+}
+
+a.nava{
+    line-height: 56px;
+    
+    text-decoration: none;
+    color: aliceblue;
+
+    font-size: 3.5vw;
+
+    margin-left: 24px;
+
+    text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.3);
+
+}
+
+a.nava:hover{
+    text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+    color: rgb(174, 180, 185);
+}
+
+
+
+div.title{
+    margin-top: 24px;
+    text-align: center;
+    color: rgb(254, 250, 236);
+    text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.15);
+}
+
+div.title {
+position: relative;
+animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+0% {
+    transform: translate(0, 0);
+}
+25% {
+    transform: translate(3px, -3px);
+}
+50% {
+    transform: translate(-3px, 3px);
+}
+75% {
+    transform: translate(3px, 3px);
+}
+100% {
+    transform: translate(0, 0);
+}
+}
+
+#tag1{
+    color: rgb(152, 204, 93);
+}
+
+div.events{
+
+    
+    padding-top: 90px;
+
+    display: flex;
+    width: 50%;
+
+    margin: 0px auto;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 40%;
+}
+.eventImg{
+    width: 60%;
+    height: 240px;
+    padding: 10px;
+}
