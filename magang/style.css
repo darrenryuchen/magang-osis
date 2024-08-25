@@ -68,7 +68,7 @@ a.nava{
     text-decoration: none;
     color: aliceblue;
 
-    font-size: 24px;
+    font-size: 140%;
 
     margin-left: 3%;
 
@@ -80,7 +80,7 @@ a.nava:hover{
     text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
     color: rgb(255, 255, 255);
     text-shadow: #fff 0 0 20px;
-    font-size: 26px;
+    font-size: 145%;
 }
 
 div.banner{
