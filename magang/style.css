@@ -88,12 +88,13 @@ div.title{
     color: aliceblue;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
     text-align: center;
+    margin: 0 auto;
 
     margin-top:32px;
 }
 
     div.title{
-        width: 70%;
+        width:70%;
     }
 
 div.title p{
