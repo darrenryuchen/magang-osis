@@ -13,6 +13,10 @@ body{
     background-color: rgb(74, 77, 67);
 }
 
+div{
+    width: 100%;
+}
+
 .overlay {
     position: fixed;
     top: 0;
@@ -83,22 +87,14 @@ div.title{
     font-size: 24px;
     color: aliceblue;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    margin: 0 auto;
-    
+    text-align: center;
 
     margin-top:32px;
 }
 
-@media screen and (max-width:500px) {
     div.title{
         width: 70%;
     }
-}
-@media screen and (max-width:960px) {
-    div.title{
-        width: 40%;
-    }
-}
 
 div.title p{
     margin-top: 20px;
