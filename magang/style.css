@@ -65,7 +65,7 @@ a.nava{
 
     font-size: 24px;
 
-    margin-left: 16px;
+    margin-left: 10px;
 
     text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.3);
 
@@ -90,16 +90,11 @@ div.title{
 
     margin-top:32px;
 }
-@media screen and (min-width:960px) {
-    div.title{
-        margin: 0 auto;
-    }
+div.title{
+    font-size: 24px;
+    width:90%;
+    
 }
-    div.title{
-        font-size: 24px;
-        width:90%;
-        
-    }
 
 div.title p{
     margin-top: 20px;
