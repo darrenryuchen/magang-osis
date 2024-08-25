@@ -65,7 +65,7 @@ a.nava{
 
     font-size: 24px;
 
-    margin-left: 12px;
+    margin-left: 16px;
 
     text-shadow: 5px 10px 6px rgba(0, 0, 0, 0.3);
 
@@ -84,17 +84,20 @@ div.banner{
 
 
 div.title{
-    font-size: 24px;
+    font-size: 12px;
     color: aliceblue;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    
-    margin: 0 auto;
 
     margin-top:32px;
 }
-
+@media screen and (max-width:960px) {
     div.title{
-        width:85%;
+        margin: 0 auto;
+    }
+}
+    div.title{
+        font-size: 24px;
+        width:90%;
     }
 
 div.title p{
@@ -165,6 +168,10 @@ hr{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(122, 136, 112);
+}
+
+div.container{
+    text-align: center;
 }
 
 
