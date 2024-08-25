@@ -152,6 +152,38 @@ hr{
     background-color: rgb(122, 136, 112);
 }
 
+div.activities{
+    color: whitesmoke;
+    
+    margin: 0 auto;
+    display: flex;
+    font-size: 24px;
+    gap: 100px;
+    justify-content: center;
+}
+
+div.activities ol li{
+    margin-left: 40px;
+}
+
+table{
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 32px;
+    border-collapse: collapse;
+}
+
+table,td,th{
+    padding: 10px;
+    border: 2px solid rgb(40, 55, 38);
+}
+th{
+    background-color: rgb(87, 164, 87);
+}
+td{
+    background-color: rgb(157, 172, 144);
+}
+
 div.container{
     margin-top: 72px;
     text-align: center;
