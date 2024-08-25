@@ -78,7 +78,9 @@ a.nava{
 
 a.nava:hover{
     text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
-    color: rgb(174, 180, 185);
+    color: rgb(255, 255, 255);
+    text-shadow: #fff 0 0 20px;
+    font-size: 26px;
 }
 
 div.banner{
