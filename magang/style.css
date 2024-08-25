@@ -2,6 +2,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+
+    font-family: "GothicA1", Arial;
 }
 
 body, html {
@@ -87,7 +89,7 @@ div.title{
     font-size: 12px;
     color: aliceblue;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-
+    margin: 0 auto;
     margin-top:32px;
 }
 div.title{
@@ -127,35 +129,6 @@ div.title h1{
     text-align: center;
     margin-top: 96px;
 }
-
-div.events{
-    margin-top: 56px;
-    font-size: 32px;
-    color: whitesmoke;
-}
-
-#events-checkpoint{
-    text-align: center;
-    margin-top: 32px;
-    margin-bottom: 16px;
-}
-
-div.games,div.activities{
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-
-}
-
-div.games ol, div.activities ol{
-    margin-left: 50px;
-}
-
-
-
-
-
 hr{
     border-color: rgb(35, 35, 35);
     margin-top: 48px;
