@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
     const navbar = document.querySelector('.navbar');
     const navUl = navbar.querySelector('ul');
 
-    hamburger.addEventListener('touchstart', () => {
+    hamburger.addEventListener('pointerup', () => {
         navbar.classList.toggle('active');
         navUl.classList.toggle('animate');
         navUl.classList.toggle('closing');
