@@ -124,6 +124,7 @@ div{
         cursor: pointer;
         margin-right: 0;
         width: 100%;
+        pointer-events: auto;
   }
   
   .hamburger .line {
@@ -552,6 +553,7 @@ tbody tr:nth-child(even) {
     border-radius: 50%;
     margin: 0px 5px;
     cursor: pointer;
+    pointer-events: auto;
 }
 
 .carousel__button--selected {
@@ -578,6 +580,7 @@ tbody tr:nth-child(even) {
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position: center;
+    pointer-events: auto;
 }
 
 .arrow:hover {
@@ -594,4 +597,14 @@ tbody tr:nth-child(even) {
 .prev {
     margin: 0 10px;
     background-image: url(leftarrow.png);
+}
+
+.vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
 }
