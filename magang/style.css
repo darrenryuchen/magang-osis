@@ -581,6 +581,7 @@ tbody tr:nth-child(even) {
     background-repeat: no-repeat;
     background-position: center;
     pointer-events: auto;
+    z-index: 100000;
 }
 
 .arrow:hover {
