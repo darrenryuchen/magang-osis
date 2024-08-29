@@ -25,6 +25,7 @@ window.addEventListener('load', () => {
         navUl.classList.toggle('closing');
     })
     hamburger.addEventListener('touchstart', () => {
+        alert("HI");
         navbar.classList.toggle('active');
         navUl.classList.toggle('animate');
         navUl.classList.toggle('closing');
