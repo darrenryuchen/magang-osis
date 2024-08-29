@@ -571,7 +571,7 @@ tbody tr:nth-child(even) {
     position: absolute;
     width: 30px;
     height: 30px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     border: none;
     cursor: pointer;
@@ -586,7 +586,7 @@ tbody tr:nth-child(even) {
 
 .arrow:hover {
     scale: 1.2;
-    background-color: rgba(255, 255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 255, 0.4);
 }
 
 .next {
