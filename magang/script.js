@@ -1,8 +1,8 @@
 window.addEventListener('load', () => {
-    // AOS.init({
-    //   duration: 800,
-    //   delay: 400
-    // });
+    AOS.init({
+      duration: 800,
+      delay: 400
+    });
     // animateslide(); 
 
     // function animateslide() {
