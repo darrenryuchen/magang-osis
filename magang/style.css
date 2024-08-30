@@ -562,6 +562,7 @@ tbody tr:nth-child(even) {
 }
 
 #promo-title {
+    margin-top: 16px;
     font-size: 3em;
     text-align: center;
     color: #ffffff;
