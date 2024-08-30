@@ -1,8 +1,8 @@
 window.addEventListener('load', () => {
-    AOS.init({
-      duration: 800,
-      delay: 400
-    });
+    // AOS.init({
+    //   duration: 800,
+    //   delay: 400
+    // });
     // animateslide(); 
 
     // function animateslide() {
@@ -19,7 +19,7 @@ window.addEventListener('load', () => {
     const navbar = document.querySelector('.navbar');
     const navUl = navbar.querySelector('.ul');
 
-    hamburger.addEventListener('click', () => {
+    hamburger.addEventListener('click touchstart', () => {
         navbar.classList.toggle('active');
         navUl.classList.toggle('animate');
         navUl.classList.toggle('closing');
