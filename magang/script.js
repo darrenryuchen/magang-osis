@@ -3,33 +3,27 @@ window.addEventListener('load', () => {
       duration: 800,
       delay: 400
     });
-    animateslide(); 
+    // animateslide(); 
 
-    function animateslide() {
-        const slide = document.getElementById('slidewindow');
-        if (slide) {
-            slide.classList.add('slide');
-            setTimeout(() => {
-            slide.classList.remove('slide');
-            }, 2000);
-        }
-        }
+    // function animateslide() {
+    //     const slide = document.getElementById('slidewindow');
+    //     if (slide) {
+    //         slide.classList.add('slide');
+    //         setTimeout(() => {
+    //         slide.classList.remove('slide');
+    //         }, 2000);
+    //     }
+    //     }
 
     const hamburger = document.getElementById('hamburger');
     const navbar = document.querySelector('.navbar');
-    const navUl = navbar.querySelector('ul');
+    const navUl = navbar.querySelector('.ul');
 
     hamburger.addEventListener('click', () => {
         navbar.classList.toggle('active');
         navUl.classList.toggle('animate');
         navUl.classList.toggle('closing');
     })
-    hamburger.addEventListener('touchstart', () => {
-        alert("HI");
-        navbar.classList.toggle('active');
-        navUl.classList.toggle('animate');
-        navUl.classList.toggle('closing');
-    }, false)
 
     document.querySelectorAll(".carousel").forEach(carousel => {
         const items = carousel.querySelectorAll(".carousel__item");
