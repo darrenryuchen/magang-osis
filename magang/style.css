@@ -396,7 +396,6 @@ div.table_container {
 
 main.table {
   width: 82vh;
-  height: 90vh;
   background-color: fff5;
   backdrop-filter: blur(7px);
   box-shadow: 0 0.4rem 0.8rem #0005;
