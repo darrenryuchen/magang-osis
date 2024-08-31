@@ -15,7 +15,7 @@ body, html {
 }
 
 body{
-  background-image: url(backgroundwood.jpg);
+  background-image: url(minecrapdirt.png);
   background-blend-mode: multiply;
   background-position: center;
 }
@@ -79,7 +79,7 @@ div{
   justify-content: space-between;
   align-items: center;
   padding: 0 100px;
-  background-image: url('leaves.png');
+  background-image: url('fundirt.png');
   box-shadow: 5px 10px 6px rgba(0, 0, 0, 0.05);
   height: 61px;
   position: fixed; 
